@@ -1,12 +1,21 @@
 body {
+    margin: 0;
     text-align: center;
-
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
     margin-top: 0;
+    font-family: 'Sacramento', cursive;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .top-container {
     background-color: #e4f9f5;
@@ -14,24 +23,17 @@ h1 {
     padding-top: 100px;
 }
 
-.bottom-container {
-    background-color: coral;
-    height: 200px;
-    width: 200px;
-
-}
-
-.middle-container {
-    background-color: cornflowerblue;
-    height: 200px;
-    width: 200px;
-}
-
-
 .top-cloud {
   position: absolute;
   right: 300px;
   top: 50px;
+}
+
+.bottom-container {
+
+}
+
+.middle-container {
 }
 
 .bottom-cloud {
@@ -39,3 +41,12 @@ h1 {
   left: 300px;
   margin-bottom: 300px;
 }
+
+.skill-one {
+    height: 200px;
+}
+
+.skill-two {
+    height: 200px;
+}
+
