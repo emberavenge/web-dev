@@ -5,16 +5,27 @@ body {
 }
 
 h1 {
-    margin-top: 0;
+    color: #66BFBF;
+    font-size: 5.625rem;
     font-family: 'Sacramento', cursive;
+    margin-top: 50px auto 0 auto;
+    line-height: 1;
 }
 
 h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
 }
 
 h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #11999E;
 }
 
 .top-container {
@@ -50,3 +61,13 @@ h3 {
     height: 200px;
 }
 
+.contact-me {
+    margin: 5px;
+}
+.btn {
+    text-decoration: none;
+}
+.footer-link {
+    text-decoration: none;
+    margin: 5px;
+}
