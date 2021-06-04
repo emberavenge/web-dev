@@ -1,12 +1,56 @@
+/**************HTML ELEMENTS*******************/
+
 a {
     color: #11999E;
 }
 
 body {
+    color: #40514E;
+    font-family: 'Merriweather', serif;
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather', serif;
 }
+
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    line-height: 1;
+    margin-top: 50px auto 0 auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+   border-color: #EAF6F6;
+   border-style: none;
+   border-top-style: dotted;
+   border-width: 5px;
+   width: 5%;
+
+ }
+
+
+p {
+    line-height: 2;
+}
+
+
+/***************** CLASSES & IDS*****************/
+
+
 
 .btn {
     text-decoration: none;
@@ -14,7 +58,7 @@ body {
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   margin-bottom: 300px;
 }
 
@@ -27,66 +71,44 @@ body {
     margin: 5px;
 }
 
-img
 
-h1 {
-    color: #66BFBF;
-    font-size: 5.625rem;
-    font-family: 'Sacramento', cursive;
-    margin-top: 50px auto 0 auto;
-    line-height: 1;
+.intro {
+    margin: auto;
+    width: 30%;
 }
 
-h2 {
-    color: #66BFBF;
-    font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
+.middle-container {
+    margin: 100px 0;
 }
 
-h3 {
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.skill-one-pc {
+    float: left;
+    width: 25;
+    margin-right: 30px;
+}
+
+.skill-two-keyboard {
+    float: right;
+    width: 25%;
+    margin-right: 30px;
 }
 
 .top-container {
-    background-color: #e4f9f5;
+    background-color: #EAF6F6;
     position: relative;
     padding-top: 100px;
+    margin: 5px;
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
-
-.skill-row {
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-    line-height: 2;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: wrap;
-
-}
-
-.skill-one {
-    height: 200px;
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-    padding-bottom: 30px;
-}
-
-.skill-two {
-    height: 200px;
-    width: 25%;
-    float: right;
-    margin-right: 30px;
-
-
-}
-
