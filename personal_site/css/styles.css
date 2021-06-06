@@ -48,7 +48,7 @@ p {
 }
 
 
-/***************** CLASSES & IDS*****************/
+/***************** CLASSES *****************/
 
 
 
@@ -85,29 +85,13 @@ p {
 }
 
 
-
-.skill-row {
-    display: flex;
-    align-items: flex-start;
-    flex-flow: rowwrap;
-    justify-content: flex-end;
-
+.skill-box-one {
+    padding: 20px;
 }
 
-.skill-one {
-    align-self: flex-start;
-    justify-content: flex-end;
+.skill-box-two {
+    padding: 20px;
 }
-
-
-
-/*
-.skill-two-keyboard {
-    float: right;
-    width: 25%;
-    margin-right: 30px;
-}
-*/
 
 .top-container {
     background-color: #EAF6F6;
@@ -123,5 +107,4 @@ p {
 }
 
 
-/*************** IDS **************/
-#flexbox
+
