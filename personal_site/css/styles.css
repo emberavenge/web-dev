@@ -66,7 +66,6 @@ p {
     margin: 5px;
 }
 
-div:flexbox {}
 
 .footer-link {
     text-decoration: none;
@@ -90,7 +89,7 @@ div:flexbox {}
 .skill-row {
     display: flex;
     align-items: flex-start;
-    flex-flow: column wrap;
+    flex-flow: rowwrap;
     justify-content: flex-end;
 
 }
@@ -98,14 +97,6 @@ div:flexbox {}
 .skill-one {
     align-self: flex-start;
     justify-content: flex-end;
-}
-
-#media-img {
-    align-self: flex-start;
-    flex: 1;
-    justify-content: flex-start;
-    padding: 10px;
-    width: 25%;
 }
 
 
