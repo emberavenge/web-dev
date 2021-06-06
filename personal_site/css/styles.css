@@ -12,6 +12,7 @@ body {
 }
 
 
+
 h1 {
     color: #66BFBF;
     font-family: 'Sacramento', cursive;
@@ -53,6 +54,42 @@ p {
 
 
 .btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 40px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    border: solid #337FED 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
     text-decoration: none;
 }
 
@@ -62,16 +99,38 @@ p {
     margin-bottom: 300px;
 }
 
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    font-size: 15px;
+}
+
+.copyright {
+    color: #EAF6F6;
+}
+
 .contact-me {
     margin: 5px;
 }
 
 
-.footer-link {
+.bottom-container a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     text-decoration: none;
-    margin: 5px;
+    margin: 10px 20px;
+    color: 66BFBF;
 }
 
+.bottom-container p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+.bottom-container a:hover{
+    color: #EAF6F6;
+}
 
 .intro {
     margin: auto;
@@ -105,6 +164,3 @@ p {
     right: 300px;
     top: 40px;
 }
-
-
-
