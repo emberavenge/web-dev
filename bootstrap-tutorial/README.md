@@ -1,1 +1,1 @@
-This repository is for learning [Bootstrap a CSS framework](https://getbootstrap.com/)
+This repository is for learning [Bootstrap, a CSS framework](https://getbootstrap.com/)
